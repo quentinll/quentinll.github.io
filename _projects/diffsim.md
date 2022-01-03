@@ -23,31 +23,26 @@ For more details, the paper is available on [HAL](https://hal.archives-ouvertes.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d248IWMLW9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
 The video of our ICRA presentation is also available:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pIOuvVUmfsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 You can cite this work with:
 
 {% raw %}
 ```
 @ARTICLE{9363565,
-
   author={Le Lidec, Quentin and Kalevatykh, Igor and Laptev, Ivan and Schmid, Cordelia and Carpentier, Justin},
-
   journal={IEEE Robotics and Automation Letters}, 
-
   title={Differentiable Simulation for Physical System Identification}, 
-
   year={2021},
-
   volume={6},
-
   number={2},
-
   pages={3413-3420},
-
   doi={10.1109/LRA.2021.3062323}}
-
 ```
 {% endraw %}

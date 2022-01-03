@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: A complete list can be found on my Google Scholar. #publications in reversed chronological order.
+description: A complete list can be found on my <a href="https://scholar.google.com/citations?user=39fFsjkAAAAJ">Google Scholar</a>. #publications in reversed chronological order.
 years: [2021]
 nav: true
 ---
