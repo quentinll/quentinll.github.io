@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Inria, Ecole Normale Supérieure. #Machine Learning, Optimization, Robotics, Computer Vision.
+description: <a href="https://www.di.ens.fr/willow">Inria, Ecole Normale Supérieure.</a>
 
 profile:
   align: right
