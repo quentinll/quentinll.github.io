@@ -1,4 +1,4 @@
-I"7<div class="projects">
+I"\<div class="projects">
   
   <!-- Display categorized projects -->
     
@@ -57,7 +57,7 @@
       
       <div class="card-body">
         <h2 class="card-title text-lowercase">Differentiable simulation for physical system identifiaction</h2>
-        <p class="card-text">Using a differentiable physical engine to retrieve physical information from data.</p>
+        <p class="card-text">Quentin Le Lidec, Igor Kalevatykh, Ivan Laptev, Cordelia Schmid, Justin Carpentier, IEEE Robotic and Automation Letters</p>
         <div class="row ml-1 mr-1 p-0">
           
         </div>
