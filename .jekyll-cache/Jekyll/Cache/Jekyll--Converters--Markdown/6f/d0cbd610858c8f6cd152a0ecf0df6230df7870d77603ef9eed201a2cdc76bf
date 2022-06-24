@@ -1,4 +1,4 @@
-I"âk<div class="publications">
+I":†<div class="publications">
 
 
   <h2 class="year">2022</h2>
@@ -159,10 +159,11 @@
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/pdf/2206.11884.pdf}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Robotics Science and Systems, Workshop on Differentiable Simulation For Robotics}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">address</span> <span class="p">=</span> <span class="s">{New York City, NY, USA}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.15607/RSS.2022.XVIII.039}</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.15607/RSS.2022.XVIII.039}</span><span class="p">,</span>
+  <span class="na">abstract</span> <span class="p">=</span> <span class="s">{In the past few years, following the differentiable programming paradigm, there has been a growing interest in computing the gradient information of physical processes (e.g., physical simulation, image rendering). However, such processes may be non-differentiable or yield uninformative gradients (i.d., null almost everywhere). When faced with the former pitfalls, gradients estimated via analytical expression or numerical techniques such as automatic differentiation and finite differences, make classical optimization schemes converge towards poor quality solutions. Thus, relying only on the local information provided by these gradients is often not sufficient to solve advanced optimization problems involving such physical processes, notably when they are subject to non-smoothness and non-convexity issues. In this work, inspired by the field of zero-th order optimization, we leverage randomized smoothing to augment differentiable physics by estimating gradients in a neighborhood. Our experiments suggest that integrating this approach inside optimization algorithms may be fruitful for tasks as varied as mesh reconstruction from images or optimal control of robotic systems subject to contact and friction issues.}</span><span class="p">,</span>
+  <span class="na">month_numeric</span> <span class="p">=</span> <span class="s">{6}</span>
 <span class="p">}</span></code></pre></figure>
     </div>
     
@@ -324,10 +325,11 @@
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/humanoid-path-planner/hpp-fcl}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of Robotics: Science and Systems}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">address</span> <span class="p">=</span> <span class="s">{New York City, NY, USA}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">jun</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.15607/RSS.2022.XVIII.039}</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.15607/RSS.2022.XVIII.039}</span><span class="p">,</span>
+  <span class="na">abstract</span> <span class="p">=</span> <span class="s">{Collision detection between two convex shapes is an essential feature of any physics engine or robot motion planner. It has been often tackled as a computational geometry problem, with the Gilbert, Johnson and Keerthi (GJK) algorithm being the most common approach today. In this work we show that collision detection is fundamentally a convex optimization problem. In particular, we establish that the GJK algorithm is a specific sub-case of the well-established Frank-Wolfe (FW) algorithm in convex optimization. We introduce a new collision detection algorithm by adapting recent works linking Nesterov acceleration and Frank-Wolfe methods. We benchmark the proposed accelerated collision detection method on two datasets composed of strictly convex and non-strictly convex shapes. Our results show that our approach significantly reduces the number of iterations to solve collision detection problems compared to the state-of-the-art GJK algorithm, leading to up to two times faster computation times.}</span><span class="p">,</span>
+  <span class="na">month_numeric</span> <span class="p">=</span> <span class="s">{6}</span>
 <span class="p">}</span></code></pre></figure>
     </div>
     
@@ -490,11 +492,12 @@
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://hal.archives-ouvertes.fr/hal-03480419}</span><span class="p">,</span>
   <span class="na">note</span> <span class="p">=</span> <span class="s">{Preprint}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/pdf/2203.03986.pdf}</span><span class="p">,</span>
   <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-03480419}</span><span class="p">,</span>
-  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v1}</span>
+  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v1}</span><span class="p">,</span>
+  <span class="na">abstract</span> <span class="p">=</span> <span class="s">{Optimal Control (OC) algorithms such as Differential Dynamic Programming (DDP) take advantage of the derivatives of the dynamics to efficiently control physical systems. Yet, in the presence of nonsmooth dynamical systems, such class of algorithms are likely to fail due, for instance, to the presence of discontinuities in the dynamics derivatives or because of non-informative gradient during the solving. On the contrary, Reinforcement Learning (RL) algorithms have shown better empirical results in scenarios exhibiting nonsmooth effects (contacts, frictions, etc). Our approach leverages recent works on Randomized Smoothing (RS) to tackle nonsmoothness issues commonly encountered in Optimal Control, and provides key insights on the interplay between RL and OC through the prism of RS methods. This naturally leads us to introduce the Randomized Differential Dynamic Programming (R-DDP) algorithm accounting for deterministic but non-smooth dynamics in a very sample-efficient way. The experiments demonstrate that our method is able to solve classic robotic problems with dry friction and frictional contacts, where classical OC algorithms are likely to fail and RL algorithms require in practice a prohibitive number of samples to find an optimal solution. }</span><span class="p">,</span>
+  <span class="na">month_numeric</span> <span class="p">=</span> <span class="s">{12}</span>
 <span class="p">}</span></code></pre></figure>
     </div>
     
@@ -638,8 +641,8 @@
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{34}</span><span class="p">,</span>
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://proceedings.neurips.cc/paper/2021/file/ab233b682ec355648e7891e66c54191b-Paper.pdf}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/quentinll/pertrenderer}</span>
+  <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/quentinll/pertrenderer}</span><span class="p">,</span>
+  <span class="na">abstract</span> <span class="p">=</span> <span class="s">{Reasoning about 3D scenes from their 2D image projections is one of the core problems in computer vision. Solutions to this inverse and ill-posed problem typically involve a search for models that best explain observed image data. Notably, images depend both on the properties of observed scenes and on the process of image formation. Hence, if optimization techniques should be used to explain images, it is crucial to design differentiable functions for the projection of 3D scenes into images, also known as differentiable rendering. Previous approaches to differentiable rendering typically replace non-differentiable operations by smooth approximations, impacting the subsequent 3D estimation. In this paper, we take a more general approach and study differentiable renderers through the prism of randomized optimization and the related notion of perturbed optimizers. In particular, our work highlights the link between some well-known differentiable renderer formulations and randomly smoothed optimizers, and introduces differentiable perturbed renderers. We also propose a variance reduction mechanism to alleviate the computational burden inherent to perturbed optimizers and introduce an adaptive scheme to automatically adjust the smoothing parameters of the rendering process. We apply our method to 3D scene reconstruction and demonstrate its advantages on the tasks of 6D pose estimation and 3D mesh reconstruction. By providing informative gradients that can be used as a strong supervisory signal, we demonstrate the benefits of perturbed renderers to obtain more accurate solutions when compared to the state-of-the-art alternatives using smooth gradient approximations. }</span>
 <span class="p">}</span></code></pre></figure>
     </div>
     
@@ -804,9 +807,9 @@
   <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://hal.archives-ouvertes.fr/hal-03025616v3/document}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE}</span><span class="p">,</span>
   <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
-  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
   <span class="na">code</span> <span class="p">=</span> <span class="s">{https://github.com/quentinll/diffqcqp}</span><span class="p">,</span>
-  <span class="na">blog</span> <span class="p">=</span> <span class="s">{https://quentinll.github.io/projects/diffsim/}</span>
+  <span class="na">blog</span> <span class="p">=</span> <span class="s">{https://quentinll.github.io/projects/diffsim/}</span><span class="p">,</span>
+  <span class="na">abstract</span> <span class="p">=</span> <span class="s">{Simulating frictional contacts remains a challenging research topic in robotics. Recently, differentiable physics emerged and has proven to be a key element in modelbased Reinforcement Learning (RL) and optimal control fields. However, most of the current formulations deploy coarse approximations of the underlying physical principles. Indeed, the classic simulators lose precision by casting the Nonlinear Complementarity Problem (NCP) of frictional contact into a Linear Complementarity Problem (LCP) to simplify computations. Moreover, such methods deploy non-smooth operations and cannot be automatically differentiated. In this paper, we propose (i) an extension of the staggered projections algorithm for more accurate solutions of the problem of contacts with friction. Based on this formulation, we introduce (ii) a differentiable simulator and an efficient way to compute the analytical derivatives of the involved optimization problems. Finally, (iii) we validate the proposed framework with a set of experiments to present a possible application of our differentiable simulator. In particular, using our approach we demonstrate accurate estimation of friction coefficients and object masses both in synthetic and real experiments. }</span>
 <span class="p">}</span></code></pre></figure>
     </div>
     
