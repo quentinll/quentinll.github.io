@@ -1,6 +1,20 @@
 ---
 ---
 
+@inproceedings{lelidec2022diffphys,
+  author      = {Le Lidec, Quentin and Montaut, Louis and Schmid, Cordelia and Laptev, Ivan and Carpentier, Justin},
+  title       = {{Augmenting differentiable physics with randomized smoothing}},
+  url         = {https://arxiv.org/abs/2206.11884},
+  pdf         = {https://arxiv.org/pdf/2206.11884.pdf},
+  booktitle   = {Robotics Science and Systems, Workshop on Differentiable Simulation For Robotics},
+  year        = {2022},
+  bibtex_show = {true},
+  address     = {New York City, NY, USA},
+  month       = {June},
+  doi         = {10.15607/RSS.2022.XVIII.039},
+  abstract    = {In the past few years, following the differentiable programming paradigm, there has been a growing interest in computing the gradient information of physical processes (e.g., physical simulation, image rendering). However, such processes may be non-differentiable or yield uninformative gradients (i.d., null almost everywhere). When faced with the former pitfalls, gradients estimated via analytical expression or numerical techniques such as automatic differentiation and finite differences, make classical optimization schemes converge towards poor quality solutions. Thus, relying only on the local information provided by these gradients is often not sufficient to solve advanced optimization problems involving such physical processes, notably when they are subject to non-smoothness and non-convexity issues. In this work, inspired by the field of zero-th order optimization, we leverage randomized smoothing to augment differentiable physics by estimating gradients in a neighborhood. Our experiments suggest that integrating this approach inside optimization algorithms may be fruitful for tasks as varied as mesh reconstruction from images or optimal control of robotic systems subject to contact and friction issues.}
+}
+
 @inproceedings{montaut2022collacc,
   author      = {Montaut, Louis and Le Lidec, Quentin and Petrík, Vladimir and Sivic, Josef and Carpentier, Justin},
   title       = {{Collision Detection Accelerated: An Optimization Perspective}},
