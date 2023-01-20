@@ -2,18 +2,34 @@
 ---
 
 @inproceedings{lelidec2022policy,
-  author      = {Le Lidec, Quentin and Jallet, Wilson and Laptev, Ivna and Schmid, Cordelia and Carpentier, Justin},
+  author      = {Le Lidec, Quentin and Jallet, Wilson and Laptev, Ivan and Schmid, Cordelia and Carpentier, Justin},
   title       = {{Enforcing the consensus between Trajectory Optimization and Policy Learning for precise robot control}},
   url         = {https://hal.archives-ouvertes.fr/hal-03780392v1},
   pdf         = {https://hal.archives-ouvertes.fr/hal-03780392/document},
-  note        = {Preprint},
-  year        = {2022},
+  note        = {},
+  journal     = {2023 - IEEE International Conference on Robotics and Automation (ICRA) },
+  year        = {2023},
   bibtex_show = {true},
-  address     = {},
-  month       = {September},
+  address     = {London},
+  month       = {May},
   doi         = {},
   abstract    = {Reinforcement learning (RL) and trajectory optimization (TO) present strong complementary advantages. On one hand, RL approaches are able to learn global control policies directly from data, but generally require large sample sizes to properly converge towards feasible policies. On the other hand, TO methods are able to exploit gradient-based information extracted from simulators to quickly converge towards a locally optimal control trajectory which is only valid within the vicinity of the solution. Over the past decade, several approaches have aimed to adequately combine the two classes of methods in order to obtain the best of both worlds. Following on from this line of research, we propose several improvements on top of these approaches to learn global control policies quicker, notably by leveraging sensitivity information stemming from TO methods via Sobolev learning, and augmented Lagrangian techniques to enforce the consensus between TO and policy learning. We evaluate the benefits of these improvements on various classical tasks in robotics through comparison with existing approaches in the literature. }
 }
+
+@inproceedings{montaut2022differentiable,
+  title={Differentiable Collision Detection: a Randomized Smoothing Approach},
+  author={Montaut, Louis and Le Lidec, Quentin and Bambade, Antoine and Petrik, Vladimir and Sivic, Josef and Carpentier, Justin},
+  url         = {https://arxiv.org/abs/2209.09012},
+  pdf         = {https://arxiv.org/pdf/2209.09012.pdf},
+  journal={2023 - IEEE International Conference on Robotics and Automation (ICRA) },
+  year={2023},
+  bibtex_show = {true},
+  address     = {London},
+  month       = {May},
+  doi         = {},
+  abstract    = {Collision detection appears as a canonical operation in a large range of robotics applications from robot control to simulation, including motion planning and estimation. While the seminal works on the topic date back to the 80s, it is only recently that the question of properly differentiating collision detection has emerged as a central issue, thanks notably to the ongoing and various efforts made by the scientific community around the topic of differentiable physics. Yet, very few solutions have been suggested so far, and only with a strong assumption on the nature of the shapes involved. In this work, we introduce a generic and efficient approach to compute the derivatives of collision detection for any pair of convex shapes, by notably leveraging randomized smoothing techniques which have shown to be particularly adapted to capture the derivatives of non-smooth problems. This approach is implemented in the HPP-FCL and Pinocchio ecosystems, and evaluated on classic datasets and problems of the robotics literature, demonstrating few micro-second timings to compute informative derivatives directly exploitable by many real robotic applications including differentiable simulation.}
+}
+
 
 @inproceedings{lelidec2022diffphys,
   author      = {Le Lidec, Quentin and Montaut, Louis and Schmid, Cordelia and Laptev, Ivan and Carpentier, Justin},
