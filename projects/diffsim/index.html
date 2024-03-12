@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://quentinll.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Quentin  Le Lidec
 
 
-  | Page not found
+  | Differentiable simulation for physical system identifiaction
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://quentinll.github.io/404.html">
+<link rel="canonical" href="https://quentinll.github.io/projects/diffsim/">
 
 
 
@@ -158,12 +158,52 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Differentiable simulation for physical system identifiaction</h1>
+    <p class="post-description">Quentin Le Lidec, Igor Kalevatykh, Ivan Laptev, Cordelia Schmid, Justin Carpentier, IEEE Robotic and Automation Letters</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://quentinll.github.io/">here</a>.</p>
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
+    
+    <source media="(max-width: 480px)" srcset="/assets/resized/sim_archi-480x205.png"></source>
+    
+    <source media="(max-width: 800px)" srcset="/assets/resized/sim_archi-800x342.png"></source>
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/sim_archi.png" title="Differentiable simualtion">
+</picture>
+
+    </div>
+</div>
+<div class="caption">
+    Architecture of a differentiable simulator. Differentiability can be exploited to retrieve physical parameters from experiments.
+</div>
+<p><strong>Abstract:</strong> Simulating frictional contacts remains a challenging research topic in robotics. Recently, differentiable physics emerged and has proven to be a key element in modelbased Reinforcement Learning (RL) and optimal control fields. However, most of the current formulations deploy coarse approximations of the underlying physical principles. Indeed, the classic simulators lose precision by casting the Nonlinear Complementarity Problem (NCP) of frictional contact into a Linear Complementarity Problem (LCP) to simplify computations. Moreover, such methods deploy non-smooth operations and cannot be automatically differentiated. In this paper, we propose (i) an extension of the staggered projections algorithm for more accurate solutions of the problem of contacts with friction. Based on this formulation, we introduce (ii) a differentiable simulator and an efficient way to compute the analytical derivatives of the involved optimization problems. Finally, (iii) we validate the proposed framework with a set of experiments to present a possible application of our differentiable simulator. In particular, using our approach we demonstrate accurate estimation of friction coefficients and object masses both in synthetic and real experiments.</p>
+
+<p>The code of the differentiable solver is available at this <a href="https://github.com/quentinll/diffqcqp" target="_blank" rel="noopener noreferrer">link</a>.</p>
+
+<p>For more details, the paper is available on <a href="https://hal.archives-ouvertes.fr/hal-03025616/" target="_blank" rel="noopener noreferrer">HAL</a> and an introductory video containing a demo is available on Youtube:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d248IWMLW9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>The video of our ICRA presentation is also available:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pIOuvVUmfsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>You can cite this work with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@ARTICLE{9363565,
+  author={Le Lidec, Quentin and Kalevatykh, Igor and Laptev, Ivan and Schmid, Cordelia and Carpentier, Justin},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Differentiable Simulation for Physical System Identification}, 
+  year={2021},
+  volume={6},
+  number={2},
+  pages={3413-3420},
+  doi={10.1109/LRA.2021.3062323}}
+</code></pre></div></div>
+
 
   </article>
 
