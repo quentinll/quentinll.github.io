@@ -1,6 +1,35 @@
 ---
 ---
 
+
+@inproceedings{montaut2024gjk,
+  title       = {GJK++: Leveraging Acceleration Methods for Faster Collision Detection},
+  author      = {Montaut, Louis and Le Lidec, Quentin and Petrik, Vladimir and Sivic, Josef and Carpentier, Justin},
+  url         = {https://hal.science/hal-04070039},
+  pdf         = {https://hal.science/hal-04070039/file/TRO_Collision_Detection_Accelerated__An_Optimization_Perspective.pdf},
+  booktitle   = {IEEE Transactions on Robotics},
+  year        = {2024},
+  bibtex_show = {true},
+  address     = {},
+  month       = {March},
+  doi         = {},
+  abstract    = {Collision detection is a fundamental computational problem in various domains, such as robotics, computational physics, and computer graphics. In general, collision detection is tackled as a computational geometry problem, with the so-called Gilbert, Johnson, and Keerthi (GJK) algorithm being the most adopted solution nowadays. While introduced in 1988, GJK remains the most effective solution to compute the distance or the collision between two 3D convex geometries. Over the years, it was shown to be efficient, scalable, and generic, operating on a broad class of convex shapes, ranging from simple primitives (sphere, ellipsoid, box, cone, capsule, etc.) to complex meshes involving thousands of vertices. In this article, we introduce several contributions to accelerate collision detection and distance computation between convex geometries by leveraging the fact that these two problems are fundamentally optimization problems. Notably, we establish that the GJK algorithm is a specific sub-case of the well-established Frank-Wolfe (FW) algorithm in convex optimization. By adapting recent works linking Polyak and Nesterov accelerations to Frank-Wolfe methods, we also propose two accelerated extensions of the classic GJK algorithm. Through an extensive benchmark over millions of collision pairs involving objects of daily life, we show that these two accelerated GJK extensions significantly reduce the overall computational burden of collision detection, leading to up to two times faster computation timings. Finally, we hope this work will significantly reduce the computational cost of modern robotic simulators, allowing the speed-up of modern robotic applications that heavily rely on simulation, such as reinforcement learning or trajectory optimization. }
+}
+
+@inproceedings{lelidec2024raisim,
+  author      = {Le Lidec, Quentin and Carpentier, Justin},
+  title       = {Reconciling RaiSim with the Maximum Dissipation Principle},
+  url         = {https://hal.science/hal-04067291},
+  pdf         = {https://hal.science/hal-04438175/document},
+  booktitle   = {preprint},
+  year        = {2024},
+  bibtex_show = {true},
+  address     = {},
+  month       = {January},
+  doi         = {},
+  abstract    = {Recent progress in reinforcement learning (RL) in robotics has been obtained by training control policy directly in simulation. Particularly in the context of quadrupedal locomotion, astonishing locomotion policies depicting high robustness against environmental perturbations have been trained by leveraging RaiSim simulator. While being more realistic than its counterparts, it has been shown recently that RaiSim does not obey the maximum dissipation principle, a fundamental principle when simulating rigid contact interactions. In this note, we detail these relaxations and propose an algorithmic correction of the RaiSim contact algorithm to handle the maximum dissipation principle adequately. Our experiments empirically demonstrate our approach leads to more physically-consistent simulation.  }
+}
+
 @inproceedings{lelidec2023contacts,
   author      = {Le Lidec, Quentin and Jallet, Wilson and Montaut, Louis and Laptev, Ivan and Schmid, Cordelia and Carpentier, Justin},
   title       = {Contact Models in Robotics: a Comparative Analysis},
