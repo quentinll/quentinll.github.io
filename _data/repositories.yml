@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - quentinll
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Simple-Robotics/Simple
+  - quentinll/diffqcqp
+  - stack-of-tasks/pinocchio
