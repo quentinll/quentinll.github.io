@@ -12,7 +12,7 @@
   booktitle   = {preprint},
   year        = {2024},
   bibtex_show = {true},
-  selected    = {false},
+  selected    = {true},
   address     = {},
   month       = {May},
   abstract    = {Over the past few years, robotics simulators have largely improved in efficiency and scalability, enabling them to generate years of simulated data in a few hours. Yet, efficiently and accurately computing the simulation derivatives remains an open challenge, with potentially high gains on the convergence speed of reinforcement learning and trajectory optimization algorithms, especially for problems involving physical contact interactions. This paper contributes to this objective by introducing a unified and efficient algorithmic solution for computing the analytical derivatives of robotic simulators. The approach considers both the collision and frictional stages, accounting for their intrinsic nonsmoothness and also exploiting the sparsity induced by the underlying multibody systems. These derivatives have been implemented in C++, and the code will be open-sourced in the Simple simulator. They depict state-of-the-art timings ranging from 5 microseconds for a 7-dof manipulator up to 95 microseconds for 36-dof humanoid, outperforming alternative solutions by a factor of at least 100.}
