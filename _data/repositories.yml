@@ -1,9 +1,0 @@
-github_users:
-  - quentinll
-
-github_repos:
-  - Simple-Robotics/Simple
-  - stack-of-tasks/pinocchio
-  - Simple-Robotics/aligator
-  - Simple-Robotics/ContactBench
-  - quentinll/diffqcqp
