@@ -66,14 +66,134 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  My current research interests lie at the intersection of machine learning, optimization, and computer vision, and their applications to robotics.
+                  My research interests lie at the intersection of machine learning, optimization, and computer vision, and their applications to robotics. The complete list of my publications can be found on my <a href="https://scholar.google.com/citations?user=39fFsjkAAAAJ&hl=en&oi=ao">Google Scholar</a> profile.
                 </p>
               </td>
             </tr>
           </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;padding-top:0px;padding-bottom:0px;width:100%;vertical-align:middle">
+                <h3>Selected Publications</h3>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- Physical Simulation -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;padding-top:8px;padding-bottom:0px;width:100%;vertical-align:middle">
+                <h4 style="margin:0;color:#666;">Physical Simulation</h4>
+              </td>
+            </tr>
+          </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    
-    <!-- Value-guided JEPA --> 
+
+    <!-- Simple gradients -->
+    <tr>
+      <td style="padding:8px;width:100%;vertical-align:middle">
+        <a href="https://simple-robotics.github.io/publications/simple-gradients/">
+          <span class="papertitle">End-to-End and Highly-Efficient Differentiable Simulation for Robotics</span>
+        </a>
+        <br>
+        <strong>Quentin Le Lidec</strong>,
+        <a href="https://lmontaut.github.io/">Louis Montaut</a>,
+        <a href="https://ymontmarin.github.io/">Yann De Mont-Marin</a>,
+        <a href="https://jcarpent.github.io/">Justin Carpentier</a>
+        <br>
+        <em>preprint</em>, 2024
+        <br>
+        <a href="https://simple-robotics.github.io/publications/simple-gradients/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2409.07107">arXiv</a>
+        /
+        <a href="https://arxiv.org/pdf/2409.07107">pdf</a>
+        /
+        <a href="https://github.com/Simple-Robotics/Simple">code</a>
+        /
+        <a href="data/simple2024gradients.bib">bibtex</a>
+        <p></p>
+        <p>
+        A unified and efficient algorithmic solution for computing analytical derivatives of robotic simulators, achieving state-of-the-art timings from 5 microseconds for a 7-dof manipulator up to 95 microseconds for 36-dof humanoid.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Simple Contacts 2024 -->
+    <tr>
+      <td style="padding:8px;width:100%;vertical-align:middle">
+        <a href="https://simple-robotics.github.io/publications/simple-contact-solver/">
+          <span class="papertitle">From Compliant to Rigid Contact Simulation: a Unified and Efficient Approach</span>
+        </a>
+        <br>
+        <a href="https://jcarpent.github.io/">Justin Carpentier</a>,
+        <strong>Quentin Le Lidec</strong>,
+        <a href="https://lmontaut.github.io/">Louis Montaut</a>
+        <br>
+        <em>Robotics: Science and Systems (RSS)</em>, 2024
+        <br>
+        <a href="https://simple-robotics.github.io/publications/simple-contact-solver/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2405.17020">arXiv</a>
+        /
+        <a href="https://arxiv.org/pdf/2405.17020">pdf</a>
+        /
+        <a href="https://github.com/Simple-Robotics/Simple">code</a>
+        /
+        <a href="data/simple2024contacts.bib">bibtex</a>
+        <p></p>
+        <p>
+        A unified approach to solving contact interactions using ADMM and proximal algorithms, handling both compliant and rigid contact interfaces with automatic hyperparameter adaptation.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Contact Models 2023 -->
+    <tr>
+      <td style="padding:8px;width:100%;vertical-align:middle">
+        <a href="https://simple-robotics.github.io/publications/contact-models/">
+          <span class="papertitle">Contact Models in Robotics: a Comparative Analysis</span>
+        </a>
+        <br>
+        <strong>Quentin Le Lidec</strong>,
+        <a href="https://manifoldfr.github.io/">Wilson Jallet</a>,
+        <a href="https://lmontaut.github.io/">Louis Montaut</a>,
+        <a href="https://www.di.ens.fr/~laptev/">Ivan Laptev</a>,
+        <a href="https://cordeliaschmid.github.io/">Cordelia Schmid</a>,
+        <a href="https://jcarpent.github.io/">Justin Carpentier</a>
+        <br>
+        <em>IEEE Transactions on Robotics</em>, 2023
+        <br>
+        <a href="https://simple-robotics.github.io/publications/contact-models/">project page</a>
+        /
+        <a href="https://hal.science/hal-04067291">hal</a>
+        /
+        <a href="https://hal.science/hal-04067291v1/document">pdf</a>
+        /
+        <a href="https://github.com/Simple-Robotics/ContactBench">code</a>
+        /
+        <a href="data/lelidec2023contacts.bib">bibtex</a>
+        <p></p>
+        <p>
+        Comprehensive survey and benchmark of contact models in robotics simulators, exposing physical relaxations and computational limitations with open-source implementations.
+        </p>
+      </td>
+    </tr>
+
+          </tbody></table>
+
+          <!-- World Models -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;padding-top:8px;padding-bottom:0px;width:100%;vertical-align:middle">
+                <h4 style="margin:0;color:#666;">World Models</h4>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <!-- Value-guided JEPA -->
     <tr>
       <td style="padding:8px;width:100%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2601.00844">
@@ -99,7 +219,133 @@
       </td>
     </tr>
 
-    <!-- Sobolev Diffusion Policy 2025 --> 
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Code</h2>
+                <p>
+                  I contribute to several open-source robotics libraries, making differentiable physics and world model tools accessible for the robotics and ML communities.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <!-- Simple -->
+    <tr>
+      <td style="padding:8px;width:100%;vertical-align:middle">
+        <a href="https://github.com/Simple-Robotics/Simple">
+          <span class="papertitle">Simple</span>
+        </a>
+        <br>
+        <a href="https://github.com/Simple-Robotics/Simple">github</a>
+        /
+        <a href="https://simple-robotics.github.io/">documentation</a>
+        <p></p>
+        <p>
+        A highly efficient library for differentiable simulation of multibody systems with contacts.
+        </p>
+      </td>
+    </tr>
+
+    <!-- Pinocchio -->
+    <tr>
+      <td style="padding:8px;width:100%;vertical-align:middle">
+        <a href="https://github.com/stack-of-tasks/pinocchio">
+          <span class="papertitle">Pinocchio</span>
+        </a>
+        <br>
+        <a href="https://github.com/stack-of-tasks/pinocchio">github</a>
+        /
+        <a href="https://stack-of-tasks.github.io/pinocchio/">documentation</a>
+        <p></p>
+        <p>
+        A fast and flexible implementation of rigid body dynamics algorithms and their analytical derivatives. </p>
+      </td>
+    </tr>
+
+    <!-- stable-worldmodel -->
+    <tr>
+      <td style="padding:8px;width:100%;vertical-align:middle">
+        <a href="https://github.com/galilai-group/stable-worldmodel">
+          <span class="papertitle">stable-worldmodel</span>
+        </a>
+        <br>
+        <a href="https://github.com/galilai-group/stable-worldmodel">github</a>
+        /
+        <a href="https://github.com/galilai-group/stable-worldmodel">documentation</a>
+        <p></p>
+        <p>
+        A framework for world model research enabling reproducible data collection, flexible model training, and comprehensive evaluation tools.
+        </p>
+      </td>
+    </tr>
+
+          </tbody></table>
+
+          
+					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Miscellanea</h2>
+
+                  <p>
+                    <strong>Academic Service:</strong>
+                  </p>
+                  <p style="margin-left: 20px; margin-top: 8px;">
+                    <strong>Reviewer:</strong> NeurIPS, ICML, RSS, ICRA, IROS, T-RO, RA-L, L4DC, Humanoids <strong>Area Chair:</strong> ICRA
+                  </p>
+                  <p style="margin-left: 20px; margin-top: 8px;">
+                    <strong>Workshop:</strong> <a href="https://sites.google.com/seas.upenn.edu/corl-2024-workshop-diff/home"><em>Differentiable Optimization Everywhere: Simulation, Estimation, Learning, and Control</em></a> at <strong>CORL'24</strong>
+                  </p>
+
+                  <p style="margin-top: 16px;">
+                    <strong>Teaching:</strong> Teaching assistant for <a href="https://www.di.ens.fr/~aspremon/OptConvexeM2.html">"Convex optimization"</a> course at MSc MVA, ENS Paris-Saclay.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>All Publications</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <!-- Value-guided JEPA -->
+    <tr>
+      <td style="padding:8px;width:100%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2601.00844">
+          <span class="papertitle">Value-guided action planning with JEPA world models</span>
+        </a>
+        <br>
+        Matthieu Destrade,
+        <a href="https://oumayb.github.io">Oumayma Bounou</a>,
+        <strong>Quentin Le Lidec</strong>,
+        <a href="https://www.di.ens.fr/~ponce/">Jean Ponce</a>,
+        <a href="http://yann.lecun.com/">Yann LeCun</a>
+        <br>
+        <em>The World Modeling Workshop</em>, 2026
+        <br>
+        <a href="https://arxiv.org/abs/2601.00844">arXiv</a>
+        /
+        <a href="https://arxiv.org/pdf/2601.00844">pdf</a>
+        /
+        <a href="data/destrade2025value.bib">bibtex</a>
+        <p></p>
+        <p>
+        Enhancing action planning in JEPAs by shaping the representation space to approximate goal-conditioned value functions as distances between state embeddings.</p>
+      </td>
+    </tr>
+
+    <!-- Sobolev Diffusion Policy 2025 -->
     <tr>
       <td style="padding:8px;width:100%;vertical-align:middle">
         <a href="https://inria.hal.science/hal-05179357v1/document">
@@ -490,94 +736,6 @@
 
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Code</h2>
-                <p>
-                  I contribute to several open-source robotics libraries, making differentiable physics and world model tools accessible for the robotics and ML communities.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-    <!-- Simple -->
-    <tr>
-      <td style="padding:8px;width:100%;vertical-align:middle">
-        <a href="https://github.com/Simple-Robotics/Simple">
-          <span class="papertitle">Simple</span>
-        </a>
-        <br>
-        <a href="https://github.com/Simple-Robotics/Simple">github</a>
-        /
-        <a href="https://simple-robotics.github.io/">documentation</a>
-        <p></p>
-        <p>
-        A highly efficient library for differentiable simulation of multibody systems with contacts.
-        </p>
-      </td>
-    </tr>
-
-    <!-- Pinocchio -->
-    <tr>
-      <td style="padding:8px;width:100%;vertical-align:middle">
-        <a href="https://github.com/stack-of-tasks/pinocchio">
-          <span class="papertitle">Pinocchio</span>
-        </a>
-        <br>
-        <a href="https://github.com/stack-of-tasks/pinocchio">github</a>
-        /
-        <a href="https://stack-of-tasks.github.io/pinocchio/">documentation</a>
-        <p></p>
-        <p>
-        A fast and flexible implementation of rigid body dynamics algorithms and their analytical derivatives. </p>
-      </td>
-    </tr>
-
-    <!-- stable-worldmodel -->
-    <tr>
-      <td style="padding:8px;width:100%;vertical-align:middle">
-        <a href="https://github.com/galilai-group/stable-worldmodel">
-          <span class="papertitle">stable-worldmodel</span>
-        </a>
-        <br>
-        <a href="https://github.com/galilai-group/stable-worldmodel">github</a>
-        /
-        <a href="https://github.com/galilai-group/stable-worldmodel">documentation</a>
-        <p></p>
-        <p>
-        A framework for world model research enabling reproducible data collection, flexible model training, and comprehensive evaluation tools.
-        </p>
-      </td>
-    </tr>
-
-          </tbody></table>
-
-          
-					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
-            <tbody>
-              <tr>
-                <td>
-                  <h2>Miscellanea</h2>
-                  
-                  <p>
-                    <strong>Academic Service:</strong>
-                  </p>
-                  <p style="margin-left: 20px; margin-top: 8px;">
-                    <strong>Reviewer:</strong> NeurIPS, ICML, RSS, ICRA, IROS, T-RO, RA-L, L4DC, Humanoids <strong>Area Chair:</strong> ICRA
-                  </p>
-                  <p style="margin-left: 20px; margin-top: 8px;">
-                    <strong>Workshop:</strong> <a href="https://sites.google.com/seas.upenn.edu/corl-2024-workshop-diff/home"><em>Differentiable Optimization Everywhere: Simulation, Estimation, Learning, and Control</em></a> at <strong>CORL'24</strong>
-                  </p>
-                  
-                  <p style="margin-top: 16px;">
-                    <strong>Teaching:</strong> Teaching assistant for <a href="https://www.di.ens.fr/~aspremon/OptConvexeM2.html">"Convex optimization"</a> course at MSc MVA, ENS Paris-Saclay.
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </td>
       </tr>
     </table>
